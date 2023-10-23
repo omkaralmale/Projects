@@ -1,0 +1,54 @@
+/* Style the body */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.container {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Style the form */
+form {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form inputs */
+.form-control {
+  margin: 5px 0;
+}
+
+/* Style the "Add to Product List" button */
+.btn-primary {
+  width: 100%;
+}
+
+/* Style the Product List */
+.list-group-item {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the "Delete" button */
+.btn-danger {
+  background-color: #ff6b6b;
+  border: none;
+}
+
+/* Hover effect for "Delete" button */
+.btn-danger:hover {
+  background-color: #ff4242;
+}
