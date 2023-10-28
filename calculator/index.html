@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Quicksand&display=swap"
+      rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mobile">
+      <div id="noutch"></div>
+      <input type="text" id="display" readonly />
+      <br />
+      <button id="gray" onclick="clearDisplay()">C</button>
+      <button id="gray" onclick="deleteDisplay()"><</button>
+      <button id="gray" onclick="addToDisplay('%')">%</button>
+      <button id="orange" onclick="addToDisplay('/')">/</button>
+      <br />
+      <button id="regular" onclick="addToDisplay('7')">7</button>
+      <button id="regular" onclick="addToDisplay('8')">8</button>
+      <button id="regular" onclick="addToDisplay('9')">9</button>
+      <button id="orange" onclick="addToDisplay('*')">x</button>
+      <br />
+      <button id="regular" onclick="addToDisplay('4')">4</button>
+      <button id="regular" onclick="addToDisplay('5')">5</button>
+      <button id="regular" onclick="addToDisplay('6')">6</button>
+      <button id="orange" onclick="addToDisplay('-')">-</button>
+      <br />
+      <button id="regular" onclick="addToDisplay('1')">1</button>
+      <button id="regular" onclick="addToDisplay('2')">2</button>
+      <button id="regular" onclick="addToDisplay('3')">3</button>
+      <button id="orange" onclick="addToDisplay('+')">+</button>
+      <br />
+      <button id="regular" onclick="addToDisplay('0')">0</button>
+      <button id="regular" onclick="addToDisplay('00')">00</button>
+      <button id="regular" onclick="addToDisplay('.')">.</button>
+      <button id="orange" onclick="calculateResult()">=</button>
+      <br />
+      <div id="bar">phone whiteBar UnderLine</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
