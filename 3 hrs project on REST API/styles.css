@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(45deg, #e51503, #ff02ad, blue);
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color: #000000;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px #000000;
+  padding-top: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn-primary {
+  width: 100%;
+}
+#Sum {
+  color: red;
+  margin-top: 15px;
+  border: 2px dotted rgb(0, 0, 0);
+  padding: 8px;
+  display: inline-block;
+}
+
+h4 {
+  text-decoration: underline 2px solid rgb(152, 152, 152);
+}
+
+li {
+  list-style: none;
+  margin: 2px;
+}
